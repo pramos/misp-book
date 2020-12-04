@@ -14,7 +14,7 @@ This menu contains all of the main functions of the site as a series of dropdown
 *   **Home button:** This button will return you to the start screen of the application, which is the event index page (more about this later).
 *   **Event Actions:** All the malware data entered into MISP is made up of an event object that is described by its connected attributes. The Event actions menu gives access to all the functionality that has to do with the creation, modification, deletion, publishing, searching and listing of events and attributes.
 *   **Galaxies:** Shortcut to the list of [MISP Galaxies](../galaxy/) on the MISP instance.
-*   **Input Filters:** Input filters alter what and how data can be entered into this instance. Apart from the basic validation of attribute entry by type, it is possible for the site administrators to define regular expression replacements and blacklists for certain values in addition to blocking certain values from being exportable. Users can view these replacement and blacklist rules here whilst administrator can alter them.
+*   **Input Filters:** Input filters alter what and how data can be entered into this instance. Apart from the basic validation of attribute entry by type, it is possible for the site administrators to define regular expression replacements and blocklists for certain values in addition to blocking certain values from being exportable. Users can view these replacement and blocklist rules here whilst administrator can alter them.
 *   **Global Actions:** This menu gives you access to information about MISP and this instance. You can view and edit your own profile, view the manual, read the news or the terms of use again, see a list of the active organizations on this instance and a histogram of their contributions by attribute type.
 *   **MISP:** Simple link to your BASEURL
 *   **Steve:** Name (Auto generated from Mail address) of current logged in user
@@ -169,16 +169,16 @@ The system will automatically generate a message for you, but it is also possibl
 
 *   **Scheduled Tasks:** Schedule the pre-defined tasks for your instance (this currently includes export caching, server pull and server push).
 
-*   **Blacklist Event:** Link to form where you can quickly add an event to a blacklist with it's UUID.
-<!-- #Todo: Double check if blacklists and their impacts are explained at all -->
+*   **Blocklist Event:** Link to form where you can quickly add an event to a blocklist with it's UUID.
+<!-- #Todo: Double check if blocklists and their impacts are explained at all -->
 
-*   **Manage Event Blacklists:** List of blacklisted events on MISP instance.
+*   **Manage Event Blocklists:** List of blocklisted events on MISP instance.
 
-*   **Blacklists Organisation:** Link to for where you can quickly add an organisation to a blacklist with it's UUID.
+*   **Blocklists Organisation:** Link to for where you can quickly add an organisation to a blocklist with it's UUID.
 
-<!-- #Todo: Double check if blacklists and their impacts are explained at all -->
+<!-- #Todo: Double check if blocklists and their impacts are explained at all -->
 
-*   **Manage Org Blacklists:** List of blacklisted Organisations on this instance.
+*   **Manage Org Blocklists:** List of blocklisted Organisations on this instance.
 
 ##### Audit
 
